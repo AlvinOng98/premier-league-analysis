@@ -1,0 +1,10 @@
+# Ignore Python cache
+__pycache__/
+
+# Ignore data files
+data/raw/
+data/cleaned/
+
+# Ignore environment files
+.env
+*.sqlite
