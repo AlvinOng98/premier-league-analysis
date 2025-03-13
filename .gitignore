@@ -8,5 +8,4 @@ data/cleaned/
 # Ignore environment files
 .env
 *.sqlite
-
 venv/
