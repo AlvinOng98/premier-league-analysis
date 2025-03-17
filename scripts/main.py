@@ -1,5 +1,4 @@
 from fetch_fbref import fetch_data
-from db_storage import store_to_db
 
 def main():
     print("🚀 Fetching Premier League data...")
