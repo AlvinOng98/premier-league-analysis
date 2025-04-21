@@ -26,8 +26,8 @@ This project seeks to:
 
 Data was sourced from **FBref.com**, scraped using the `soccerdata` Python package, and structured into an SQLite database. Two main datasets were created:
 
-- **PlayerStatistics**
-- **TeamStatistics**
+- **cleaned_standard_player_stats.csv**
+- **cleaned_standard_team_stats.csv**
 
 > Each dataset includes performance metrics like:  
 > `Goals`, `Assists`, `xG`, `Progressive Passes`, `Yellow Cards`, and more.
@@ -79,13 +79,19 @@ Data was sourced from **FBref.com**, scraped using the `soccerdata` Python packa
 ```bash
 📦Premier-League-Sports-Analytics
  ┣ 📁data/
- ┃ ┣ FBref_football_stats.db
+ ┃ ┣ 📁cleaned/
+ ┃ ┃ ┣ cleaned_standard_player_stats.csv
+ ┃ ┃ ┗ cleaned_standard_team_stats.csv
+ ┃ ┣ 📁raw/
+ ┃ ┃ ┣ player_stats.csv
+ ┃ ┃ ┗ team_stats.csv
+ ┃ ┗ FBref_football_stats.db
  ┣ 📁notebooks/
  ┃ ┣ Sports_Analytics_Premier_League.ipynb
  ┃ ┗ standard_stats_cleaning.ipynb
  ┣ 📁scripts/
  ┃ ┣ db_create.py
- ┃ ┗ fetch_fbref.py
+ ┃ ┣ fetch_fbref.py
  ┃ ┗ main.py
  ┣ 📄README.md
  ┗ 📄requirements.txt
