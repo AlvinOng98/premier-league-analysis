@@ -97,12 +97,14 @@ The dashboard is divided into two main sections:
 ```bash
 📦Premier-League-Sports-Analytics
  ┣ 📁data/
- ┃ ┣ player_stats_cleaned.csv
- ┃ ┗ team_stats_cleaned.csv
+ ┃ ┣ FBref_football_stats.db
  ┣ 📁notebooks/
- ┃ ┗ Sports_Analytics_Premier_League.ipynb
- ┣ 📁dashboard/
- ┃ ┗ Premier_League_Dashboard.twbx
+ ┃ ┣ Sports_Analytics_Premier_League.ipynb
+ ┃ ┗ standard_stats_cleaning.ipynb
+ ┣ 📁scripts/
+ ┃ ┣ db_create.py
+ ┃ ┗ fetch_fbref.py
+ ┃ ┗ main.py
  ┣ 📄README.md
  ┗ 📄requirements.txt
 ```
@@ -110,5 +112,5 @@ The dashboard is divided into two main sections:
 ## 🧠 Author
 
 **Alvin Ong**  
-Aspiring Data Analyst with a passion for sports and storytelling through data.  
+Aspiring Data Analyst with a passion for storytelling through data.  
 [GitHub](https://github.com/AlvinOng98) | [LinkedIn](https://www.linkedin.com/in/alvinong98/)
