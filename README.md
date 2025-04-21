@@ -53,30 +53,12 @@ Data was sourced from **FBref.com**, scraped using the `soccerdata` Python packa
 - Identified key predictors of team success
 
 ### 3. **Clustering**
-- Used KMeans to segment players based on performance attributes
-- Helped uncover hidden roles or archetypes across seasons
-
-### 4. **Regression**
-- Built models to predict **Goals Scored** using features like:
-  - `xG`, `Progressive Passes`, `Non-Penalty Goals`, etc.
-- Evaluated using R² and residual analysis
+- Used KMeans to segment teams based on performance attributes
+- Helped uncover team archetypes across seasons
 
 ## Interactive Dashboard (Tableau)
 
-The dashboard is divided into two main sections:
 
-### **Team Performance Dashboard**
-- League table based on goals, possession, or xG
-- Head-to-head comparisons with league average
-- Line charts for trend analysis
-- Radar charts for metric breakdown
-- Best & worst performer rankings
-
-### **Player Performance Dashboard**
-- Player-level selector with team filtering
-- Individual stats and rankings
-- Visual comparisons with teammates and league
-- Radar chart of player profile
 
 ## Key Takeaways
 
