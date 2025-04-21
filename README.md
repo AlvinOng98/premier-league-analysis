@@ -1,19 +1,18 @@
 
-# ⚽ Premier League Sports Analytics Dashboard
+# Premier League Sports Analytics Dashboard
 
 ![Project Banner](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 ![Tool](https://img.shields.io/badge/Built%20with-Python%20%7C%20SQL%20%7C%20Tableau-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
-## 📘 Project Overview
+## Project Overview
 
 This project is a comprehensive sports analytics case study focused on the **English Premier League**, one of the most prestigious football leagues globally. Leveraging historical data over six seasons, it explores player and team performances through a structured analytics pipeline — from data collection and processing, to modeling, visualization, and dashboarding.
 
-## 🎯 Business Context
+## Business Context
 
 The project is rooted in the growing impact of **data-driven decision making** in professional sports. With clubs investing in analytics to gain competitive edges on the pitch and in recruitment, this analysis simulates what clubs or analysts might use internally for strategic planning.
 
-## 📌 Business Goals
+## Business Goals
 
 This project seeks to:
 - Identify **top-performing players and teams** across multiple seasons.
@@ -23,7 +22,7 @@ This project seeks to:
 - Build predictive models for **goal output** using regression.
 - Deliver a clean and insightful **Tableau dashboard** for stakeholders.
 
-## 📦 Dataset & Schema
+## Dataset & Schema
 
 Data was sourced from **FBref.com**, scraped using the `soccerdata` Python package, and structured into an SQLite database. Two main datasets were created:
 
@@ -33,7 +32,7 @@ Data was sourced from **FBref.com**, scraped using the `soccerdata` Python packa
 > Each dataset includes performance metrics like:  
 > `Goals`, `Assists`, `xG`, `Progressive Passes`, `Yellow Cards`, and more.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool/Language | Purpose |
 |---------------|---------|
@@ -41,9 +40,8 @@ Data was sourced from **FBref.com**, scraped using the `soccerdata` Python packa
 | **SQLite** | Structured data storage |
 | **SQL** | Data querying and aggregation |
 | **Tableau** | Dashboard creation and interactive visualization |
-| **Jupyter Notebook** | EDA, clustering, regression, and insights |
 
-## 🔍 Analytical Workflow
+## Analytical Workflow
 
 ### 1. **Exploratory Data Analysis (EDA)**
 - Trends in goals, assists, possession, and xG
@@ -63,38 +61,38 @@ Data was sourced from **FBref.com**, scraped using the `soccerdata` Python packa
   - `xG`, `Progressive Passes`, `Non-Penalty Goals`, etc.
 - Evaluated using R² and residual analysis
 
-## 📊 Interactive Dashboard (Tableau)
+## Interactive Dashboard (Tableau)
 
 The dashboard is divided into two main sections:
 
-### 🏟️ **Team Performance Dashboard**
+### **Team Performance Dashboard**
 - League table based on goals, possession, or xG
 - Head-to-head comparisons with league average
 - Line charts for trend analysis
 - Radar charts for metric breakdown
 - Best & worst performer rankings
 
-### 👤 **Player Performance Dashboard**
+### **Player Performance Dashboard**
 - Player-level selector with team filtering
 - Individual stats and rankings
 - Visual comparisons with teammates and league
 - Radar chart of player profile
 
-## 🚀 Key Takeaways
+## Key Takeaways
 
 - **Player goal-scoring efficiency** and **progressive stats** are highly correlated with team success.
 - **Clustering analysis** reveals tactical diversity in player styles.
 - **Regression models** highlight the predictive power of `xG` and passing metrics.
 - The Tableau dashboard provides a **holistic overview** of league dynamics and player value.
 
-## 🔮 Future Work
+## Future Work
 
 - Expand to include **advanced stats** (e.g., pressures, tackles, shot-creating actions).
 - Add **time-series modeling** for performance forecasting.
 - Incorporate **transfer market data** and **injury history**.
 - Build a recommendation engine for **recruitment analytics**.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
 📦Premier-League-Sports-Analytics
