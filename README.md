@@ -26,8 +26,8 @@ This project seeks to:
 
 Data was sourced from **FBref.com**, scraped using the `soccerdata` Python package, and structured into an SQLite database. Two main datasets were created:
 
-- **cleaned_standard_player_stats.csv**
-- **cleaned_standard_team_stats.csv**
+- ![**cleaned_standard_player_stats.csv**](https://github.com/AlvinOng98/premier-league-analysis/blob/main/data/cleaned/cleaned_standard_player_stats.csv)
+- ![**cleaned_standard_team_stats.csv**](https://github.com/AlvinOng98/premier-league-analysis/blob/main/data/cleaned/cleaned_standard_team_stats.csv)
 
 > Each dataset includes performance metrics like:  
 > `Goals`, `Assists`, `xG`, `Progressive Passes`, `Yellow Cards`, and more.
@@ -55,6 +55,8 @@ Data was sourced from **FBref.com**, scraped using the `soccerdata` Python packa
 ### 3. **Clustering**
 - Used KMeans to segment teams based on performance attributes
 - Helped uncover team archetypes across seasons
+
+View ![notebooks](https://github.com/AlvinOng98/premier-league-analysis/tree/main/notebooks)
 
 ## Interactive Dashboard (Tableau)
 
