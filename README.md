@@ -26,8 +26,8 @@ This project seeks to:
 
 Data was sourced from **FBref.com**, scraped using the `soccerdata` Python package, and structured into an SQLite database. Two main datasets were created:
 
-- ![**cleaned_standard_player_stats.csv**](https://github.com/AlvinOng98/premier-league-analysis/blob/main/data/cleaned/cleaned_standard_player_stats.csv)
-- ![**cleaned_standard_team_stats.csv**](https://github.com/AlvinOng98/premier-league-analysis/blob/main/data/cleaned/cleaned_standard_team_stats.csv)
+- ![**cleaned_standard_player_stats.csv**](https://github.com/AlvinOngZX/premier-league-analysis/blob/main/data/cleaned/cleaned_standard_player_stats.csv)
+- ![**cleaned_standard_team_stats.csv**](https://github.com/AlvinOngZX/premier-league-analysis/blob/main/data/cleaned/cleaned_standard_team_stats.csv)
 
 > Each dataset includes performance metrics like:  
 > `Goals`, `Assists`, `xG`, `Progressive Passes`, `Yellow Cards`, and more.
@@ -107,4 +107,4 @@ View it in ![Tableau](https://public.tableau.com/views/PremierLeagueTeamStats_17
 
 **Alvin Ong**  
 Aspiring Data Analyst with a passion for storytelling through data.  
-[GitHub](https://github.com/AlvinOng98) | [LinkedIn](https://www.linkedin.com/in/alvinong98/)
+[GitHub](https://github.com/AlvinOngZX) | [LinkedIn](https://www.linkedin.com/in/alvinong98/)
